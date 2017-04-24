@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mi primero Formulario</title>
+</head>
+
+<body>
+
+
+<h1> Formulario de Datos </h1>
+
+<form action="">
+
+<p> Nombre: </p>
+<input name="nombre" type="text" required>
+
+<p> Apellido: </p>
+<input name="apellido" type="text" required>
+</p>
+<p> Teléfono: </p>
+<input name="telefono" type="text" required>
+
+<p> Escoge tu auto: </p>
+
+<select name="auto" id="auto" required>
+  <option value="">Seleccione auto</option>
+  <option value="">Mercedez</option>
+  <option value="">Audi</option>
+  <option value="">Volvo</option>
+	
+</select>
+
+
+<p> Email: </p>
+<input name="email" type="email" required>
+
+<p> 
+<label for="pw"> Crea tu contraseña: </label><br>
+<input name="pw" type="password" pattern=".{6,}" title="6 o más caracteres" required>
+</p>
+
+<p>
+<input name="send" type="submit" value="Enviar">
+</p>
+
+</form>
+
+</body>
+</html>
